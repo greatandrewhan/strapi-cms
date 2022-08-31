@@ -1,3 +1,9 @@
+# NOTE
+
+Cloud storage has been installed using Clouinary [@strapi/provider-upload-cloudinary](https://www.npmjs.com/package/@strapi/provider-upload-cloudinary)
+
+Front-end for Vercel deploy [Strapi Plugin Vercel](https://www.npmjs.com/package/strapi-plugin-vercel)
+
 # 🚀 Getting started with Strapi
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
