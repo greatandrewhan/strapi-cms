@@ -1,5 +1,5 @@
 {
-  "name": "strapi-cms",
+  "name": "strapi-backend",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -10,21 +10,23 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-i18n": "4.3.6",
-    "@strapi/plugin-users-permissions": "4.3.6",
-    "@strapi/strapi": "4.3.6",
+    "@strapi/plugin-i18n": "4.3.4",
+    "@strapi/plugin-users-permissions": "4.3.4",
+    "@strapi/provider-upload-cloudinary": "^4.3.4",
+    "@strapi/strapi": "4.3.4",
     "better-sqlite3": "7.4.6",
     "pg": "^8.8.0",
-    "pg-connection-string": "^2.5.0"
+    "pg-connection-string": "^2.5.0",
+    "strapi-plugin-vercel-deploy": "^1.3.1"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "5afb8f97-4043-4bcf-9b3d-bfafa774841b"
+    "uuid": "67d98343-f7bb-49d7-b684-ad9da560a0b0"
   },
   "engines": {
-    "node": ">=14.19.1 <=16.x.x",
+    "node": ">=12.x.x <=16.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
