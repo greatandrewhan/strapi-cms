@@ -1,5 +1,7 @@
 # NOTE
 
+Heroku server: [https://lit-ocean-89204.herokuapp.com/admin](https://lit-ocean-89204.herokuapp.com/admin)
+
 Cloud storage has been installed using Clouinary [@strapi/provider-upload-cloudinary](https://www.npmjs.com/package/@strapi/provider-upload-cloudinary)
 
 Front-end for Vercel deploy [Strapi Plugin Vercel](https://www.npmjs.com/package/strapi-plugin-vercel)
